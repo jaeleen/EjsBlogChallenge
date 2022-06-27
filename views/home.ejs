@@ -3,22 +3,22 @@
     <div class="blogImage">
         <img src="" alt="">
         <div class="postBox">
-            <h1>5 INSANELY GOOD SKINCARE UNDER 💲20!</h1>
+            <h1>MY 30 DAYS FITNESS DIARY</h1>
             <p class="boxText">
                 <%= startingContent %>
             </p>
         </div>
 
     </div>
-    <% newPosts.forEach(function(newPost){ %>
-        <h1>
-            <%= newPost.title %>
-        </h1>
-        <p>
-            <%= newPost.content.substring(0,100) + "..." %> <a href="/posts/<%= newPost.title %>"> Read More</a>
-        </p>
-
-        <% }) %>
+     <% newPosts.forEach(function(newPost){ %>
+                <h1>
+                    <%= newPost.title %>
+                </h1>
+                <p>
+                    <%= newPost.content.substring(0,100) + "..." %> <a href="/posts/<%= newPost.title %>"> Read More</a>
+                </p>
+    
+                <% }) %>
 
    
 
