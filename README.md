@@ -1,4 +1,4 @@
 # EjsBlogChallenge
 
 Udemy EjsBlog Project
-Usint node js
+Using node js
